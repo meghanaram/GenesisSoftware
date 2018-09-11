@@ -1,12 +1,12 @@
 module.exports=
-	{
-datadrive:{
+{
+		datadrive:{
 
-firstdata:{
-		
-		username:"sharath",
-		password:"Asteria@123",
-		error:"Login Failed"
-}
-}
+			firstdata:{
+
+				username:"sharath",
+				password:"Asteria@123",
+				error:"Login Failed"
+			}
+		}
 }
