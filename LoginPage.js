@@ -35,33 +35,13 @@ describe('Genesis Login Page',function(){
 			toast("Login");
 
 
-//			element(by.id("toast-container")).getText().then(function(text){
-
-//			if(text.length!=0){
-//			console.log("Test case Passed");
-//			}
-//			console.log(text.length);
-//			console.log(text);
-
-//			});
-
-
-
 		});
 
 		it('Reset Password',function(){
 
 			obj.resetpassword.click();
 			toast("Reset Password");
-//			element(by.id("toast-container")).getText().then(function(text){
-
-//			if(text.length!=0){
-//			console.log("Reset Password Test case Passed");
-//			}
-//			console.log(text.length);
-//			console.log(text);
-
-//			});
+//			
 
 
 		})
