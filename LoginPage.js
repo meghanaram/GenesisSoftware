@@ -3,7 +3,7 @@ describe('Genesis Login Page',function(){
 	var d=require("./LoginData.js");
 	var using=require('jasmine-data-provider');
 	
-	//Toast messages function
+	//Toast messages
 
 	function toast(testname){
 		element(by.id("toast-container")).getText().then(function(text){
